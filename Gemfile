@@ -13,11 +13,12 @@ gem 'jbuilder',           '2.4.1'
 gem 'faker',              '1.7.3' # move to development
 gem 'will_paginate',           '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
-gem 'sqlite3',          '1.3.12'
+
 
 
 group :development, :test do
   gem 'byebug',           '9.0.0', platform: :mri
+  gem 'sqlite3',          '1.3.12'
 end
 
 group :development do
