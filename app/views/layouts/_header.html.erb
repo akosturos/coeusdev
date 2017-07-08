@@ -1,0 +1,77 @@
+<header class="header">
+    <div id="nav-div-id">
+        <nav>
+
+            <div class="div-2-5 nav-div"></div>
+
+            <div class="div-20 nav-div">
+                <div class="div-65 nav-text">
+                    <h3 id="nav-coeus"><i>COEUS</i></h3>
+                </div>
+                <div class="div-35 nav-image">
+                    <img src="/assets/small-logo.png" id="main-logo">
+                </div>
+            </div>
+
+            <div class="div-75 nav-div">
+                <ul class="nav-ul-right">
+                    <li><a href="/" id="nav-home">home</a></li>
+                    <li><a href="/#second-home-image">tech</a></li>
+                    <li><%= link_to "team", team_path %></li>
+                    <li><%= link_to "projects", projects_path %></li>
+                    <%#<li><%= link_to "news", about_path %><%#</li>%>
+                    <%#<li><%= link_to "contact", contact_path %><%#</li>%>
+                    <% if logged_in? %>
+                        <li><%= link_to "Users", users_path %></li>
+                        <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b>
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><%= link_to "Profile", current_user %></li>
+                                <li><%= link_to "Settings", edit_user_path(current_user) %></li>
+                                <li class="divider">(divider)</li>
+                                <li><%= link_to "Log out", logout_path, method: :delete %></li>
+                            </ul>
+                        </li>
+                    <% else %>
+                        <li><%= link_to "login", login_path %></li>
+                    <% end %>
+                </ul>
+            </div>
+            <div class="div-2-5 nav-div"></div>
+        </nav>
+        <div id="appearNav">
+            <ul class="nav-ul">
+                    <li><%= link_to "home", root_path %></li>
+                    <li><a href="/#first-home-image">about</a></li>
+                    <li><a href="/#second-home-image">tech</a></li>
+                    <li id="last-left-nav"><%= link_to "team", team_path %></li>
+                </ul>
+        </div>
+    </div>
+    <div id="appear-nav">
+        <ul class="appear-nav-ul">
+            <li><a  id="appear-home" href="/">home</a></li>
+            <li><a id="appear-tech" href="/#second-home-image">tech</a></li>
+            <li><%= link_to "team", team_path %></li>
+            <li><a href="/"><img src="/assets/small-logo.png" id="appear-logo"></a></li>
+            <li><%= link_to "projects", projects_path %></li>
+           <%# <li><%= link_to "news", about_path %><%#</li>
+            <li><%= link_to "contact", contact_path %><%#</li>%>
+            <% if logged_in? %>
+            <li><%= link_to "Users", users_path %></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><%= link_to "Profile", current_user %></li>
+                            <li><%= link_to "Settings", edit_user_path(current_user) %></li>
+                            <li class="divider">(divider)</li>
+                            <li><%= link_to "Log out", logout_path, method: :delete %></li>
+                        </ul>
+                </li>
+            <% else %>
+                <li><%= link_to "login", login_path %></li>
+            <% end %>
+        </ul>
+    </div>
+</header>
