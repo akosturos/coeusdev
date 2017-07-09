@@ -1,9 +1,7 @@
 <header class="header">
     <div id="nav-div-id">
         <nav>
-
             <div class="div-2-5 nav-div"></div>
-
             <div class="div-20 nav-div">
                 <div class="div-65 nav-text">
                     <h3 id="nav-coeus"><i>COEUS</i></h3>
@@ -12,7 +10,6 @@
                     <img src="/assets/small-logo.png" id="main-logo">
                 </div>
             </div>
-
             <div class="div-75 nav-div">
                 <ul class="nav-ul-right">
                     <li><a href="/" id="nav-home">home</a></li>
@@ -20,7 +17,7 @@
                     <li><%= link_to "team", team_path %></li>
                     <li><%= link_to "projects", projects_path %></li>
                     <%#<li><%= link_to "news", about_path %><%#</li>%>
-                    <%#<li><%= link_to "contact", contact_path %><%#</li>%>
+                    <li><%= link_to "contact", contact_path %></li>
                     <% if logged_in? %>
                         <li><%= link_to "Users", users_path %></li>
                         <li class="dropdown">
@@ -56,8 +53,8 @@
             <li><%= link_to "team", team_path %></li>
             <li><a href="/"><img src="/assets/small-logo.png" id="appear-logo"></a></li>
             <li><%= link_to "projects", projects_path %></li>
-           <%# <li><%= link_to "news", about_path %><%#</li>
-            <li><%= link_to "contact", contact_path %><%#</li>%>
+           <%# <li><%= link_to "news", about_path %><%#</li>%>
+            <li><%= link_to "contact", contact_path %></li>
             <% if logged_in? %>
             <li><%= link_to "Users", users_path %></li>
                 <li class="dropdown">

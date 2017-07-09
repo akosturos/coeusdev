@@ -19,6 +19,13 @@ $dark-green: #0A2800;
   background-color: transparent;
 }
 
+.bgcolor-w {
+  background-color: #fff;
+}
+.bgcolor-b {
+  background-color: #000;
+}
+
 //// delete div-p
 
 
@@ -165,7 +172,10 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
     font-size: 80px;
     font-weight: 600;
 }
-
+#banner-text-ii {
+  top: -70px;
+  background-color: rgba(0,0,0,0.7);
+}
 .page-ul {
    color: #000;
    line-height: 200%;
@@ -304,30 +314,17 @@ FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOO
                      ******************************************************
 
 ***********/
-#footer {
-  margin:0;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  padding-right: 20px;
-}
 
-.footer-p1 {
-   text-align: right;
-   font-size: 13px;
-   color: #fff;
-   margin: 0;
-   padding: 0;
-   letter-spacing: .05em;
-   line-height: 18px;
+
+.ftr-txt {
+  size: 14px;
+  color: #fff;
+  text-align: right;
 }
-.footer-p2 {
-   text-align: right;
-   font-size: 9px;
-   color: #fff;
-   margin: 0;
-   padding: 0;
-   letter-spacing: .05em;
-   line-height: 18px;
+.ftr-txt-sm {
+  font-size: 9px;
+  color: #fff;
+  text-align: right;
 }
 
 .prefooter {
@@ -338,13 +335,6 @@ FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOO
   padding:0;
 }
 
-
-#home-wwd {
-   color: $coeusdarkgreen;
-   font-size: 42px;
-   text-align: center;
-   background-color: #fff;
-}
 
 
 
@@ -368,18 +358,6 @@ HOME     HOME     HOME     HOME     HOME     HOME     HOME     HOME
   height: auto;
 }
 
-.bc {
-   background-color: #F5F6F7;
-}
-
-#integration-div {
-   background-color: #fff;
-}
-
-.ii-box {
-   background-color: #FFF;
-}
-
 .h-600w {
    height: 600px;
 }
@@ -394,6 +372,26 @@ HOME     HOME     HOME     HOME     HOME     HOME     HOME     HOME
   margin-top: -120px;
 }
 
+
+#home-wwd-h1 {
+   font-size: 42px;
+   text-align: center;
+   background-color: #fff;
+}
+
+
+.squarebox {
+  margin: 0;
+  padding: 0;
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+.squarebox_img {
+  height: 100%;
+  width: 100%;
+}
 
 /**********
 
@@ -713,10 +711,25 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 ***********/
 
 .gimage_img {
-   height: 78px;
-   width: 115px;
+   height: auto;
+   width: 50%;
    padding-right: 25%;
    padding-left: 25%;
+}
+#gimage_greenpower {
+  width: 55%;
+  padding-right: 22.5%;
+  padding-left: 22.5%;
+}
+#gimage_lb {
+  width: 35%;
+  padding-left: 32.5%;
+  padding-right: 32.5%;
+}
+#gimage_biofuel {
+  width: 45%;
+  padding-right: 27.5%;
+  padding-left: 27.5%;
 }
 
 .gimage-h3 {
@@ -733,8 +746,9 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 }
 
 .gwords-h1 {
-   margin-top: 0;
-   color: $coeusdarkgreen;
+   margin: 0;
+   padding: 0;
+   color: #000;
 }
 
 .h-20 {
