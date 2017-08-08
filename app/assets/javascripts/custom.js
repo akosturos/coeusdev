@@ -94,5 +94,33 @@ $(document).ready(function(){
       }
    });
 
+   var hawaii_project_click = 0;
+   var california_project_click = 0;
+
+    $("#hawaii-project-div").on('click', function() {
+      hawaii_project_click += 1;
+      if(hawaii_project_click % 2 == 1) {
+         $("#hawaii-project-img").addClass("blur");
+         $("#hawaii-project-header").addClass("no-show");
+         $("#hawaii-project-text").removeClass("no-show");
+      } else {
+         $("#hawaii-project-img").removeClass("blur");
+         $("#hawaii-project-text").addClass("no-show");
+         $("#hawaii-project-header").removeClass("no-show");
+      }
+    });
+
+    $("#california-project-div").on('click', function() {
+      california_project_click += 1;
+      if(california_project_click % 2 == 1) {
+         $("#california-project-img").addClass("blur");
+         $("#california-project-header").addClass("no-show");
+         $("#california-project-text").removeClass("no-show");
+      } else {
+         $("#california-project").removeClass("blur");
+         $("#california-project-text").addClass("no-show");
+         $("#california-project-header").removeClass("no-show");
+      }
+    });
 
 });

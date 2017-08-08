@@ -1611,7 +1611,18 @@ BANNER-IMG-DIV     BANNER-IMG-DIV     BANNER-IMG-DIV     BANNER-IMG-DIV     BANN
 ***********/
 
 
-
+.banner-img-div-400 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.banner-img-div-450 {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
 .banner-img-div-600 {
     position: relative;
     width: 100%;

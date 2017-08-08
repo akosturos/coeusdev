@@ -147,7 +147,7 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
     }
 }
 
-// other sizes in custom.scss
+// other sizes in template.scss
 .banner-img-div-500 {
     position: relative;
     width: 100%;
@@ -163,6 +163,33 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
 .banner-text {
     position: absolute;
     top: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+    letter-spacing: .5em;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+}
+.banner-text-small {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.banner-text-400 {
+    position: absolute;
+    top: 40px;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
@@ -570,32 +597,16 @@ PROJECTS     PROJECTS     PROJECTS     PROJECTS     PROJECTS     PROJECTS     PR
   cursor: pointer;
 }
 
-.darken {
-  background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("/hawaii5.jpg");
-}
-
-.project-turn {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.project-translucent {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  background-color: rgb(255,255,255);
-  background-color: rgba(255,255,255,0.8);
-}
-
-.project-translucent-text {
+.no-show {
   display: none;
+}
+
+.blur {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
 }
 
 
