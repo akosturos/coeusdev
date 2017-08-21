@@ -44,8 +44,12 @@ DIV-FLOAT-LEFT     DIV-FLOAT-LEFT     DIV-FLOAT-LEFT     DIV-FLOAT-LEFT     DIV-
 
 ***********/
 
-
-
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
 
 
 
@@ -581,55 +585,6 @@ DIV-CENTER-PADDING     DIV-CENTER-PADDING     DIV-CENTER-PADDING     DIV-CENTER-
 
 
 
-
-.pr-10 {
-  padding-right: 10%;
-}
-.pr-15 {
-  padding-right: 15%;
-}
-.pr-20 {
-  padding-right: 20%;
-}
-.pr-25 {
-  padding-right: 25%;
-}
-.pr-30 {
-  padding-right: 30%;
-}
-.pr-35 {
-  padding-right: 35%;
-}
-.pr-5 {
-  padding-right: 5%;
-}
-.pl-5 {
-  padding-left: 5%;
-}
-.pl-7-5 {
-  padding-left: 7.5%;
-}
-.pl-10 {
-  padding-left: 10%;
-}
-pl-12-5 {
-  padding-left: 12.5%;
-}
-.pl-15 {
-  padding-left: 15%;
-}
-.pl-20 {
-  padding-left: 20%;
-}
-.pl-25 {
-  padding-left: 25%;
-}
-.pl-30 {
-  padding-left: 30%;
-}
-.pl-35 {
-  padding-left: 35%;
-}
 
 /*
 *
@@ -1225,9 +1180,69 @@ MARGIN-BOTTOM-TOP-BOTH   MARGIN-BOTTOM-TOP-BOTH   MARGIN-BOTTOM-TOP-BOTH    MARG
   margin-top: -150;
 }
 
+
+.ml-2 {
+  margin-left: 2%;
+}
+.ml-5 {
+  margin-left: 5%;
+}
+.ml-10 {
+  margin-left: 10%;
+}
+.ml-15 {
+  margin-left: 15%;
+}
+.ml-20 {
+  margin-left: 20%;
+}
+.ml-25 {
+  margin-left: 25%;
+}
+.ml-30 {
+  margin-left: 30%;
+}
+.ml-35 {
+  margin-left: 35%;
+}
+.ml-40 {
+  margin-left: 40%;
+}
+.ml-45 {
+  margin-left: 45%;
+}
+
 .mr-2 {
   margin-right: 2%;
 }
+.mr-5 {
+  margin-right: 5%;
+}
+.mr-10 {
+  margin-right: 10%;
+}
+.mr-15 {
+  margin-right: 15%;
+}
+.mr-20 {
+  margin-right: 20%;
+}
+.mr-25 {
+  margin-right: 25%;
+}
+.mr-30 {
+  margin-right: 30%;
+}
+.mr-35 {
+  margin-right: 35%;
+}
+.mr-40 {
+  margin-right: 40%;
+}
+
+
+
+
 
 /**********
 
@@ -1595,10 +1610,74 @@ pmt-0 {
   padding-top: 200px;
 }
 
+pl-2-5 {
+  padding-left: 2.5%;
+}
+pl-5 {
+  padding-left: 5%;
+}
+pl-7-5 {
+  padding-left: 7.5%;
+}
+pl-10 {
+  padding-left: 10%;
+}
+pl-15 {
+  padding-left: 15%;
+}
+pl-20 {
+  padding-left: 20%;
+}
+pl-25 {
+  padding-left: 25%;
+}
+pl-30 {
+  padding-left: 30%;
+}
+pl-35 {
+  padding-left: 35%;
+}
+pl-40 {
+  padding-left: 40%;
+}
+pl-45 {
+  padding-left: 45%;
+}
 
 
-
-
+pr-2-5 {
+  padding-right: 2.5%;
+}
+pr-5 {
+  padding-right: 5%;
+}
+pr-7-5 {
+  padding-right: 7.5%;
+}
+pr-10 {
+  padding-right: 10%;
+}
+pr-15 {
+  padding-right: 15%;
+}
+pr-20 {
+  padding-right: 20%;
+}
+pr-25 {
+  padding-right: 25%;
+}
+pr-30 {
+  padding-right: 30%;
+}
+pr-35 {
+  padding-right: 35%;
+}
+pr-40 {
+  padding-right: 40%;
+}
+pr-45 {
+  padding-right: 45%;
+}
 
 /**********
 
@@ -1788,10 +1867,31 @@ BANNER-IMG-DIV     BANNER-IMG-DIV     BANNER-IMG-DIV     BANNER-IMG-DIV     BANN
   width: 100%;
 }
 
-
-fs-16 {
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
   font-size: 16px;
 }
-
-
+.fs-17 {
+  font-size: 17px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-19 {
+  font-size: 19px;
+}
+.fs-20 {
+  font-size: 20px;
+}
 

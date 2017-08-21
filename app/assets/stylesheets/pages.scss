@@ -3,7 +3,8 @@
 COLORS    COLORS   COLORS   COLORS   COLORS   COLORS   COLORS
 
 *************/
-$nav-color: #1e1c1b;
+//$nav-color: #1e1c1b;
+$nav-color: #000;
 $nav-highlight: #b0eb00;
 $coeusdarkgreen: #03490b;
 $gray2: #7EAE42;
@@ -243,7 +244,6 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
 .header {
   padding: 0;
   margin: 0;
-  background-color: #000;
   height:90px;
 }
 
@@ -812,9 +812,10 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 }
 
 .gimage-h3 {
-   font-size: 16px;
-   text-align: center;
+   font-size: 14px;
+   text-align: justify;
    color: $coeusdarkgreen;
+   height: auto;
 }
 
 .gwords-img {

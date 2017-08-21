@@ -77,6 +77,9 @@ $(document).ready(function(){
       $('#appear-nav').fadeOut(100);
    });
 
+/*
+
+DONT NEED BELOW - BELOW WAS FOR IMAGES OT BE INTERACTIVE
 
    var hawaii_project_click = 0;
    var california_project_click = 0;
@@ -106,5 +109,5 @@ $(document).ready(function(){
          $("#california-project-header").removeClass("no-show");
       }
     });
-
+*/
 });
