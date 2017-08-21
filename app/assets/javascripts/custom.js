@@ -77,22 +77,6 @@ $(document).ready(function(){
       $('#appear-nav').fadeOut(100);
    });
 
-   var hawaii_click = 0;
-   var california_click = 0;
-
-   $("#project-hawaii-banner").on('click', function() {
-      hawaii_click = hawaii_click + 1;
-      if(hawaii_click % 2 == 0) {
-         $('#project-hawaii-div').removeClass("bgt").addClass("project-translucent");
-         $('#project-hawaii-h4').css("display", "none");
-         $('#hawaii-text').css("display", "block");
-      }
-      else {
-         $('#project-hawaii-div').removeClass('project-translucent');
-         $('#project-hawaii-h4').css('display', 'none');
-         $('#hawaii-text').css('display', 'none');
-      }
-   });
 
    var hawaii_project_click = 0;
    var california_project_click = 0;
