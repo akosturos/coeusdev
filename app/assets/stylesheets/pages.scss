@@ -346,12 +346,12 @@ FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOO
 .ftr-txt {
   size: 14px;
   color: #fff;
-  text-align: right;
+  text-align: center;
 }
 .ftr-txt-sm {
   font-size: 9px;
   color: #fff;
-  text-align: right;
+  text-align: center;
 }
 
 .prefooter {
@@ -363,7 +363,9 @@ FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOO
 }
 
 
-
+footer {
+  height: 30px;
+}
 
 
 
@@ -402,10 +404,29 @@ HOME     HOME     HOME     HOME     HOME     HOME     HOME     HOME
    height: 600px;
 }
 
-.home-ii
+#ii-h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.home-ii {
+  width: 300px;
+  height: 205px;
+
+}
 .ii-ind-img {
-  width: 250px;
-  height: 250px;
+
+}
+.ii-sfield-img {
+
+}
+.ii-log-img {
+
+}
+
+.svg-arrow {
+  margin-top: 60px;
+  margin-left: -40px;
 }
 
 #js-home-div {
