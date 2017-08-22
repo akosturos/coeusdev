@@ -239,7 +239,7 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
    font-weight: 500;
 }
 
-page
+
 
 .page-li::before {
    color: #000;
@@ -621,18 +621,24 @@ TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM
 
 
 #org-chart {
-  height: 478px;
-  width: 711px;
+  height: 448px;
+  width: 640px;
+  padding-top: 20px;
   margin: auto;
   display: block;
 }
 
-#coeus-log {
+.coeus-team-img {
   height: 96px;
   width: 336px;
 }
 
-
+.line-img {
+  height: 50px;
+  width: 800px;
+  display: block;
+  margin: auto;
+}
 
 
 /**********
