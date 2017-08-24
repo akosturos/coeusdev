@@ -11,6 +11,9 @@ $gray2: #7EAE42;
 $form-gray: #5F5F5F;
 $dark-green: #0A2800;
 
+.nav-color {
+  background-color: $nav-color;
+}
 
 .cdg {
    color: $coeusdarkgreen;
@@ -265,26 +268,38 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   padding: 0;
   margin: 0;
   height:90px;
+  background-color: $nav-color;
 }
 
+#nav-logo {
+  float: left;
+  background-color: $nav-color;
+  display: inline;
+  width: 300px;
+}
+
+#nav-links {
+  float: right;
+  width: 580px;
+  padding-right: 5px;
+  background-color: $nav-color;
+  display: inline;
+}
 
 #nav-div-id {
    height: 100%;
 }
 
-.nav-div {
-   background-color: $nav-color;
-   height: 100%;
-}
-
 #nav-coeus {
-   font-weight: 400;
-   padding-top: 15%;
-   margin: 0;
-   height: 100%;
-   font-variant: italic;
-   font-size: 42px;
-   color: #fff;
+  padding-left: 4px;
+  text-align:left;
+  font-weight: 400;
+  font-variant: italic;
+  font-size: 42px;
+  color: #fff;
+  width: 100px;
+  display: inline;
+  float: left;
 
 }
 
@@ -297,14 +312,6 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
    height: 50px;
    padding-top: 50px;
    text-align: right;
-}
-
-.nav-text {
-   height: 100%;
-   background-color: $nav-color;
-   padding-top: 0px;
-
-
 }
 
 .nav-image {
@@ -649,6 +656,13 @@ TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM
   margin-bottom: 50px;
 }
 
+.bb {
+  border-bottom: 1px solid black;
+}
+
+.bt {
+  border-top: 1px solid black;
+}
 
 /**********
 
