@@ -275,7 +275,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   float: left;
   background-color: $nav-color;
   display: inline;
-  width: 300px;
+  width: 290px;
 }
 
 #nav-links {
@@ -291,7 +291,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
 }
 
 #nav-coeus {
-  padding-left: 4px;
+  padding-left: 20px;
   text-align:left;
   font-weight: 400;
   font-variant: italic;
@@ -300,6 +300,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   width: 100px;
   display: inline;
   float: left;
+  margin-right: 0;
 
 }
 
@@ -326,7 +327,9 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
 }
 
 
-
+#last-nav-link {
+  padding-right: 10px;
+}
 
 
 // // // // // // // // // // // // // // // // // // // //
