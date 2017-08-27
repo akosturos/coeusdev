@@ -954,7 +954,11 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 }
 
 
-
+@media screen and (max-width: 900px) {
+  #nav-links {
+    display: none;
+  }
+}
 
 
 
