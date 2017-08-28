@@ -44,27 +44,37 @@ GENERAL     GENERAL     GENERAL     GENERAL     GENERAL     GENERAL     GENERAL 
 ***********/
 
 
-
+/*
 div {
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: #fff;
 }
+*/
 
+div {
+  background-color: #fff;
+}
 
 html {
   background-color: #000;
 }
 
-h1, p {
+h1, h2, p {
     letter-spacing: 110%;
     word-spacing: 200%;
-    line-height: 200%;
 }
+
 
 h1 {
     font-size: 26px;
+    line-height: 200%;
+ }
+
+ h2 {
+    font-size: 23px;
+    line-height: 100%;
  }
 
 h1, h2, h3, h4, h5, h6, p, li, div, nav, html {
@@ -74,6 +84,7 @@ h1, h2, h3, h4, h5, h6, p, li, div, nav, html {
 
 p {
     font-size: 17px;
+    line-height: 200%;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
 }
@@ -880,30 +891,15 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 ***********/
 
 .gimage_img {
-   height: auto;
-   width: 50%;
-   padding-right: 25%;
-   padding-left: 25%;
-}
-#gimage_greenpower {
-  width: 55%;
-  padding-right: 22.5%;
-  padding-left: 22.5%;
-}
-#gimage_lb {
-  width: 35%;
-  padding-left: 32.5%;
-  padding-right: 32.5%;
-}
-#gimage_biofuel {
-  width: 45%;
-  padding-right: 27.5%;
-  padding-left: 27.5%;
+   height: 120px;
+   width: 120px;
 }
 
+
 .gimage-h3 {
+  padding-top: 10px;
    font-size: 14px;
-   text-align: justify;
+   text-align: left;
    color: $coeusdarkgreen;
    height: auto;
 }
@@ -949,23 +945,78 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
    width: 250px;
 }
 
-#gbiopellets {
 
+.container-90p {
+  width: 90%;
+}
+.container-95p {
+  width: 95%;
+}
+.container-100p {
+  width: 100%;
 }
 
-
-@media screen and (max-width: 900px) {
-  #nav-links {
-    display: none;
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
   }
 }
 
+@media screen and (max-width: 768px) {
+  #nav-links {
+    display: none;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
 
+.home-1 {
+  padding-top: 0;
+}
 
+@media screen and (max-width: 576px)
+{
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 13px;
+  }
 
+  .home-1 {
+    padding-top: 20px;
+  }
+}
 
+ml-n40  {
+  margin-left: -40px;
+}
+padding-lr-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
-
+/*
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+*/
 
 
 

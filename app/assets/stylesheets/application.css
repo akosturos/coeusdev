@@ -11,9 +11,11 @@
  * It is generally better to create a new file per style scope.
  *
  *= require normalize
- *= bootstrap
  *= require template
- *= require pages
+ *= require bootstrap-reboot
+ *= require bootstrap-grid
+ *= require bootstrap
  *= require custom
+ *= require pages
  *= require_self
  */
