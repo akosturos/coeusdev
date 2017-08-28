@@ -177,10 +177,10 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
     height: auto;
     width: 100%;
 }
-
 .banner-text {
     position: absolute;
-    top: 100px;
+    top: 0;
+    margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
@@ -188,6 +188,18 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
     letter-spacing: .5em;
     color: #fff;
     font-size: 80px;
+    font-weight: 600;
+}
+
+
+.banner-text-double {
+    position: absolute;
+    top: 0;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: .5em;
+    color: #fff;
+    font-size: 60px;
     font-weight: 600;
 }
 .banner-text-small {
@@ -315,7 +327,12 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   display: inline;
   float: left;
   margin-right: 0;
-
+}
+#nav-coeus {
+  font-weight: 400;
+  font-variant: italic;
+  font-size: 36px !important;
+  color: #fff;
 }
 
 .nav-ul-left {
@@ -681,6 +698,11 @@ TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM
   border-top: 1px solid black;
 }
 
+.team-p {
+  font-size: 14px;
+
+}
+
 /**********
 
                      ******************************************************
@@ -692,11 +714,8 @@ PROJECTS     PROJECTS     PROJECTS     PROJECTS     PROJECTS     PROJECTS     PR
 ***********/
 
 
-.project-click {
+.project-img {
   position: relative;
-}
-.project-click:hover {
-  cursor: pointer;
 }
 
 .no-show {
@@ -957,9 +976,7 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   width: 100%;
 }
 
-//23
-//30
-//
+
 #h-arrow-1 {
   padding-left: 0;
   padding-right: 0;
@@ -975,12 +992,76 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 #hidden-row {
   display: inline;
 }
+#hidden-proj-img {
+
+}
+#appear-proj-img {
+  display: none;
+  height: 300px;
+}
 #banner-max {
   max-height: 500px;
 }
 #appear-row {
-  display: hidden;
+  display: none;
 }
+.pl-0px {
+  padding-left: 0px;
+}
+.pl-5px {
+  padding-left: 5px;
+}
+.pl-10px {
+  padding-left: 10px;
+}
+.pl-15px {
+  padding-left: 15px;
+}
+.pl-20px {
+  padding-left: 20px;
+}
+.pl-25px {
+  padding-left: 25px;
+}
+.pl-30px {
+  padding-left: 30px;
+}
+.pl-35px {
+  padding-left: 35px;
+}
+.pl-40px {
+  padding-left: 40px;
+}
+.pr-0px {
+  padding-right: 0px;
+}
+.pr-5px {
+  padding-right: 5px;
+}
+.pr-10px {
+  padding-right: 10px;
+}
+.pr-15px {
+  padding-right: 15px;
+}
+.pr-20px {
+  padding-right: 20px;
+}
+.pr-25px {
+  padding-right: 25px;
+}
+.pr-30px {
+  padding-right: 30px;
+}
+
+.pr-35px {
+  padding-right: 35px;
+}
+.pr-40px {
+  padding-right: 40px;
+}
+
+
 #team-1 {
   order: 2;
 }
@@ -993,19 +1074,86 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   float: left;
   height: 100%;
 }
+#project-header {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  #project-header-single {
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
 
-@media screen and (min-width: 993px) {
-  #org-chart {
-    height: 400px;
-    width: 640px;
+  .appear-nav-li {
+    font-size: 16px;
+  }
+  .appear-nav-left {
+    padding-left: 0px;
+    padding-right: 40px;
+  }
+  .appear-nav-right {
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+
+#nav-color {
+  background-color: $nav-color !important;
+}
+.navbar-inverse {
+  background-color: $nav-color;
+}
+
+@media screen and (max-width: 1200px) {
+  #project-div {
+    height: 170px;
   }
 }
+@media screen and (max-width: 1170px) {
+  #project-header {
+    font-size: 50px;
+  }
+  #project-header-single {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1112px) {
+  #project-header {
+    margin-top: 20px;
+  }
+  #project-header-single {
+    margin-top: 20px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 24px;
   }
   p {
     font-size: 16px;
+  }
+  .appear-nav-li {
+    font-size: 16px;
+  }
+  .appear-nav-left {
+    padding-left: 0px;
+    padding-right: 40px;
+  }
+  .appear-nav-right {
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+  .banner-text {
+    font-size: 60px;
+  }
+  .banner-text-single {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  .banner-text-double {
+    margin-top: 20px;
+    font-size: 40px;
   }
   .home-ii {
     width: 210px;
@@ -1014,6 +1162,14 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     #org-chart {
     height: 220px;
     width: 320px;
+  }
+  #project-header {
+    margin-top: 20px;
+    font-size: 36px;
+  }
+  #project-header-single {
+    margin-top: 20px;
+    font-size: 36px;
   }
 }
 
@@ -1027,12 +1183,42 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   p {
     font-size: 14px;
   }
+  .appear-nav-li {
+    font-size: 16px;
+  }
+  .appear-nav-left {
+    padding-left: 0px;
+    padding-right: 30px;
+  }
+  .appear-nav-right {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  .banner-text {
+    font-size: 50px;
+  }
+  #hidden-proj-img {
+    display: none;
+  }
+  #appear-proj-img {
+    display: block;
+    height: 300px;
+  }
+  #project-header {
+    padding-top: 30px;
+    font-size: 40px;
+  }
+  #project-header-single {
+    padding-top: 30px;
+    font-size: 40px;
+  }
+
   .home-ii {
     width: 180px;
     height: 138px;
   }
   .home-1 {
-  padding-top: 0;
+    padding-top: 0;
   }
   #org-chart {
     height: 320px;
@@ -1061,6 +1247,26 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   p {
     font-size: 13px;
   }
+  .banner-text {
+    font-size: 0px;
+  }
+  .appear-nav-li {
+    font-size: 14px;
+  }
+  .appear-nav-left {
+    padding-left: 0px;
+    padding-right: 30px;
+  }
+  .appear-nav-right {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  #appear-row {
+    display: inline;
+  }
+  #apppear-proj-img {
+    height: 300px;
+  }
   .banner-img-div-500 {
 
   }
@@ -1084,16 +1290,53 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   #hidden-row {
     display: none;
   }
-  #appear-row {
-    display: inline;
+  #project-header {
+    padding-top: 30px;
+    font-size: 30px;
   }
+  #project-header-single {
+    padding-top: 30px;
+    font-size: 30px;
+  }
+
   #team-2 {
     padding-top: 20px;
   }
   #team-logo-div {
     display: none;
   }
+  .team-p {
+    font-size: 13px;
+  }
 }
+
+@media screen and (max-width: 501px) {
+  .appear-nav-li {
+    font-size: 13px;
+  }
+  .appear-nav-left {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+  .appear-nav-right {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 399px) {
+  .appear-nav-li {
+    font-size: 12px;
+  }
+  .appear-nav-left {
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+  .appear-nav-right {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}
+
 
 ml-n40  {
   margin-left: -40px;
@@ -1101,6 +1344,13 @@ ml-n40  {
 padding-lr-0 {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+@media screen and (min-width: 993px) {
+  #org-chart {
+    height: 400px;
+    width: 640px;
+  }
 }
 
 /*
