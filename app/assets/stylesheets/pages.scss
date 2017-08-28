@@ -1087,6 +1087,21 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     padding-right: 0px;
   }
 
+#ul-rmargin {
+  margin-right: 10px;
+}
+
+.mr-15px {
+  margin-right: 15px;
+}
+.mr-20px {
+  margin-right: 20px;
+}
+
+#hidden-row-md {
+
+}
+
 #nav-color {
   background-color: $nav-color !important;
 }
@@ -1192,6 +1207,9 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     font-size: 50px;
   }
   #hidden-proj-img {
+    display: none;
+  }
+  #hidden-row-md {
     display: none;
   }
   #appear-proj-img {
