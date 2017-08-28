@@ -328,11 +328,13 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   float: left;
   margin-right: 0;
 }
-#nav-coeus {
+
+#nav-coeus-new {
   font-weight: 400;
   font-variant: italic;
   font-size: 36px !important;
   color: #fff;
+  width: 300px;
 }
 
 .nav-ul-left {
@@ -1100,6 +1102,10 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 #nav-color {
   background-color: $nav-color !important;
 }
+#nav-color {
+  background-color: $nav-color !important;
+  text-align: left;
+}
 .navbar-inverse {
   background-color: $nav-color;
 }
@@ -1352,24 +1358,6 @@ padding-lr-0 {
     width: 640px;
   }
 }
-
-/*
-$grid-breakpoints: (
-  // Extra small screen / phone
-  xs: 0,
-  // Small screen / phone
-  sm: 576px,
-  // Medium screen / tablet
-  md: 768px,
-  // Large screen / desktop
-  lg: 992px,
-  // Extra large screen / wide desktop
-  xl: 1200px
-);
-*/
-
-
-
 
 
 
