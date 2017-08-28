@@ -88,6 +88,9 @@ p {
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
 }
+.p-space-150 {
+  word-spacing: 150%;
+}
 
 li {
    display: inline;
@@ -177,7 +180,7 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
 
 .banner-text {
     position: absolute;
-    top: 75px;
+    top: 100px;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
@@ -647,9 +650,8 @@ TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM
 
 
 #org-chart {
-  height: 448px;
+  height: 400px;
   width: 640px;
-  padding-top: 20px;
   margin: auto;
   display: block;
 }
@@ -664,10 +666,6 @@ TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM
   width: 800px;
   display: block;
   margin: auto;
-}
-
-.team-p {
-  font-size: 15px;
 }
 
 .line-div {
@@ -974,7 +972,34 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     text-align: justify;
   }
 
+#hidden-row {
+  display: inline;
+}
+#banner-max {
+  max-height: 500px;
+}
+#appear-row {
+  display: hidden;
+}
+#team-1 {
+  order: 2;
+}
+#team-2 {
+  order: 1;
+  padding-top: 0px;
+}
+#team-logo-div {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
 
+@media screen and (min-width: 993px) {
+  #org-chart {
+    height: 400px;
+    width: 640px;
+  }
+}
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 24px;
@@ -986,8 +1011,9 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     width: 210px;
     height: 161px;
   }
-  #hidden-row {
-    display: none;
+    #org-chart {
+    height: 220px;
+    width: 320px;
   }
 }
 
@@ -1007,9 +1033,23 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   }
   .home-1 {
   padding-top: 0;
-}
+  }
+  #org-chart {
+    height: 320px;
+    width: 512px;
+  }
   .sm-j2c-txt {
-  text-align: left;
+    text-align: left;
+  }
+  #team-1 {
+    order: 1;
+  }
+  #team-2 {
+    order: 2;
+    padding-top: 20px;
+  }
+  #team-logo-div {
+    width: 40%;
   }
 }
 
@@ -1021,6 +1061,12 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   p {
     font-size: 13px;
   }
+  .banner-img-div-500 {
+
+  }
+  .banner-img-div-400 {
+    height: 300px;
+  }
   .home-ii {
     width: 120px;
     height: 92px;
@@ -1028,10 +1074,23 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   .home-1 {
     padding-top: 20px;
   }
+  #org-chart {
+    height: 220px;
+    width: 320px;
+  }
   .sm-j2c-txt {
     text-align: left;
   }
   #hidden-row {
+    display: none;
+  }
+  #appear-row {
+    display: inline;
+  }
+  #team-2 {
+    padding-top: 20px;
+  }
+  #team-logo-div {
     display: none;
   }
 }
