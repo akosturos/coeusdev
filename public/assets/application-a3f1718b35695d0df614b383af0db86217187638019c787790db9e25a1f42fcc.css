@@ -14676,12 +14676,17 @@ COLORS    COLORS   COLORS   COLORS   COLORS   COLORS   COLORS
   background-color: transparent;
 }
 
-/* line 26, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 25, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+#bg-transparent {
+  background-color: transparent;
+}
+
+/* line 30, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .bgcolor-w {
   background-color: #fff;
 }
 
-/* line 29, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 33, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .bgcolor-b {
   background-color: #000;
 }
@@ -14695,40 +14700,40 @@ GENERAL     GENERAL     GENERAL     GENERAL     GENERAL     GENERAL     GENERAL 
                      ******************************************************
 
 ***********/
-/* line 45, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 49, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 div {
   background-color: #fff;
 }
 
-/* line 49, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 53, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 html {
   background-color: #000;
 }
 
-/* line 53, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 57, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 h1, h2, p {
   letter-spacing: 110%;
   word-spacing: 200%;
 }
 
-/* line 59, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 63, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 h1 {
   font-size: 26px;
   line-height: 200%;
 }
 
-/* line 64, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 68, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 h2 {
   font-size: 23px;
   line-height: 100%;
 }
 
-/* line 69, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 73, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 h1, h2, h3, h4, h5, h6, p, li, div, nav, html {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 74, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 78, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 p {
   font-size: 17px;
   line-height: 200%;
@@ -14736,12 +14741,12 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 80, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 84, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .p-space-150 {
   word-spacing: 150%;
 }
 
-/* line 84, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 88, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 li {
   display: inline;
   list-style-type: none;
@@ -14752,14 +14757,14 @@ li {
   color: #fff;
 }
 
-/* line 94, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 98, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 nav {
   height: 100%;
   background-color: #000;
   text-align: left;
 }
 
-/* line 100, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 104, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 ul {
   list-style-type: none;
   padding: 0;
@@ -14767,28 +14772,28 @@ ul {
   text-align: bottom;
 }
 
-/* line 108, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 112, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 a:link {
   color: white;
   text-decoration: none;
 }
 
 /* visited link */
-/* line 114, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 118, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 a:visited {
   color: white;
   text-decoration: none;
 }
 
 /* mouse over link */
-/* line 120, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 124, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 a:hover {
   color: #b0eb00;
   text-decoration: none;
 }
 
 /* selected link */
-/* line 126, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 130, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 a:active {
   color: #b0eb00;
   text-decoration: none;
@@ -14803,17 +14808,17 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
                      ******************************************************
 
 ***********/
-/* line 149, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 153, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .banner-div {
   height: 900px;
 }
-/* line 151, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 155, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .banner-div img {
   height: 900px;
   width: 100%;
 }
 
-/* line 158, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 162, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .banner-img-div-500 {
   position: relative;
   width: 100%;
@@ -14821,20 +14826,18 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
   overflow: hidden;
 }
 
-/* line 165, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 169, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .banner-img {
   height: auto;
   width: 100%;
 }
 
-/* line 169, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 173, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .banner-text {
   position: absolute;
   top: 0;
   margin-top: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
+  width: 100%;
   text-align: center;
   letter-spacing: .5em;
   color: #fff;
@@ -14842,7 +14845,7 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
   font-weight: 600;
 }
 
-/* line 184, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 186, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .banner-text-double {
   position: absolute;
   top: 0;
@@ -14854,7 +14857,7 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
   font-weight: 600;
 }
 
-/* line 194, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 196, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .banner-text-small {
   background-color: black;
   background-color: rgba(0, 0, 0, 0.3);
@@ -14871,7 +14874,7 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
   margin-bottom: 10%;
 }
 
-/* line 209, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 211, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .banner-text-400 {
   position: absolute;
   top: 40px;
@@ -14885,20 +14888,20 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
   font-weight: 600;
 }
 
-/* line 221, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 223, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #banner-text-ii {
   top: -70px;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 225, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 227, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .page-ul {
   color: #000;
   line-height: 200%;
   font-size: 17px;
 }
 
-/* line 232, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 234, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .page-li-circle {
   display: list-item;
   list-style-type: circle;
@@ -14909,7 +14912,7 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
   font-weight: 500;
 }
 
-/* line 241, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 243, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .page-li-disc {
   display: list-item;
   list-style-type: disc;
@@ -14920,7 +14923,7 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
   font-weight: 500;
 }
 
-/* line 250, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 252, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .page-li-none {
   display: list-item;
   list-style-type: none;
@@ -14931,12 +14934,12 @@ ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES     ClASSES 
   font-weight: 500;
 }
 
-/* line 262, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 264, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .page-li::before {
   color: #000;
 }
 
-/* line 266, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 268, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .text-center {
   text-align: center;
 }
@@ -14950,7 +14953,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
                      ******************************************************
 
 ***********/
-/* line 282, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 284, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .header {
   padding: 0;
   margin: 0;
@@ -14958,7 +14961,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   background-color: #000;
 }
 
-/* line 289, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 291, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #nav-logo {
   float: left;
   background-color: #000;
@@ -14966,7 +14969,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   width: 290px;
 }
 
-/* line 296, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 298, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #nav-links {
   float: right;
   width: 580px;
@@ -14975,12 +14978,12 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   display: inline;
 }
 
-/* line 304, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 306, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #nav-div-id {
   height: 100%;
 }
 
-/* line 308, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 310, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #nav-coeus {
   padding-left: 20px;
   text-align: left;
@@ -14994,7 +14997,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   margin-right: 0;
 }
 
-/* line 321, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 323, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #nav-coeus-new {
   font-weight: 400;
   font-variant: italic;
@@ -15003,39 +15006,39 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   width: 300px;
 }
 
-/* line 329, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 331, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .nav-ul-left {
   height: 50px;
   padding-top: 50px;
   text-align: left;
 }
 
-/* line 334, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 336, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .nav-ul-right {
   height: 50px;
   padding-top: 50px;
   text-align: right;
 }
 
-/* line 340, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 342, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .nav-image {
   background-color: #000;
   padding-top: 13px;
   margin: 0;
 }
 
-/* line 346, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 348, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #main-logo {
   height: 61.6px;
   width: 53.6px;
 }
 
-/* line 352, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 354, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #last-nav-link {
   padding-right: 10px;
 }
 
-/* line 363, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 365, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #appear-nav {
   position: fixed;
   display: none;
@@ -15046,7 +15049,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   z-index: 90;
 }
 
-/* line 373, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 375, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .appear-nav-ul {
   height: 30px;
   padding-top: 12px;
@@ -15054,7 +15057,7 @@ HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEADER     HEA
   text-align: center;
 }
 
-/* line 381, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 383, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #appear-logo {
   height: 70%;
   weight: 70%;
@@ -15069,21 +15072,21 @@ FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOO
                      ******************************************************
 
 ***********/
-/* line 398, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 400, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .ftr-txt {
   size: 14px;
   color: #fff;
   text-align: center;
 }
 
-/* line 403, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 405, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .ftr-txt-sm {
   font-size: 9px;
   color: #fff;
   text-align: center;
 }
 
-/* line 409, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 411, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .prefooter {
   height: 150px;
   width: 100%;
@@ -15092,7 +15095,7 @@ FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOOTER     FOO
   padding: 0;
 }
 
-/* line 418, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 420, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 footer {
   height: 30px;
 }
@@ -15106,13 +15109,13 @@ HOME     HOME     HOME     HOME     HOME     HOME     HOME     HOME
                      ******************************************************
 
 ***********/
-/* line 437, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 439, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #home-iframe {
   width: 100%;
   height: auto;
 }
 
-/* line 442, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 444, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .home-banner-img-div-500 {
   position: relative;
   width: 100%;
@@ -15120,30 +15123,30 @@ HOME     HOME     HOME     HOME     HOME     HOME     HOME     HOME
   overflow: hidden;
   background-color: black;
 }
-/* line 449, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 451, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .home-banner-img-div-500 video {
   margin-right: auto;
   padding: auto;
 }
 
-/* line 455, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 457, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .h-600w {
   height: 600px;
 }
 
-/* line 459, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 461, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #ii-h1 {
   font-size: 45px;
   text-align: center;
 }
 
-/* line 465, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 467, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .home-ii {
-  width: 240px;
-  height: 184px;
+  width: 100%;
+  height: 100%;
 }
 
-/* line 480, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 482, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .svg-arrow {
   margin: auto;
   padding-top: 10px;
@@ -15153,25 +15156,25 @@ HOME     HOME     HOME     HOME     HOME     HOME     HOME     HOME
   padding-right: 0;
 }
 
-/* line 489, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 491, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #js-home-div {
   overflow: hidden;
 }
 
-/* line 494, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 496, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #second-home-image {
   position: absolute;
   margin-top: -120px;
 }
 
-/* line 500, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 502, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #home-wwd-h1 {
   font-size: 42px;
   text-align: center;
   background-color: #fff;
 }
 
-/* line 507, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 509, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .squarebox {
   margin: 0;
   padding: 0;
@@ -15180,7 +15183,7 @@ HOME     HOME     HOME     HOME     HOME     HOME     HOME     HOME
   float: left;
 }
 
-/* line 515, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 517, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .squarebox_img {
   height: 98%;
   width: 98%;
@@ -15196,30 +15199,30 @@ ABOUT     ABOUT     ABOUT     ABOUT     ABOUT     ABOUT     ABOUT     ABOUT
                      ******************************************************
 
 ***********/
-/* line 531, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 533, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .about-div {
   width: 100%;
   background-color: #fff;
 }
-/* line 534, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 536, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .about-div .img-div {
   height: auto;
   width: 100%;
 }
 
-/* line 541, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 543, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .about-picture {
   height: auto;
   width: 100%;
 }
 
-/* line 546, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 548, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .about-text {
   margin: 40px;
   text-align: left;
 }
 
-/* line 551, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 553, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .about-white-transparent {
   background-color: white;
   background-color: rgba(255, 255, 255, 0.7);
@@ -15256,14 +15259,14 @@ CONTACT     CONTACT     CONTACT     CONTACT     CONTACT     CONTACT     CONTACT
     z-index: 2;
 }
 */
-/* line 596, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 598, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .label {
   margin-right: 15%;
   margin-left: 15%;
   width: 60%;
 }
 
-/* line 602, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 604, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .input-box {
   width: 60%;
   padding: 3px;
@@ -15274,28 +15277,28 @@ CONTACT     CONTACT     CONTACT     CONTACT     CONTACT     CONTACT     CONTACT
   border-radius: 0.2rem;
 }
 
-/* line 612, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 614, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .input-box:focus {
   border: 1px solid #b0eb00;
 }
 
-/* line 617, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 619, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #text-area-label {
   display: block;
 }
 
-/* line 621, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 623, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #text-area-div {
   width: 100%;
   margin-top: 40px;
 }
 
-/* line 626, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 628, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .text-area {
   margin-right: 7.5%;
 }
 
-/* line 631, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 633, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 textarea {
   margin-right: 15%;
   margin-left: 15%;
@@ -15304,7 +15307,7 @@ textarea {
   height: 200px;
 }
 
-/* line 639, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 641, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .ak-button {
   border-radius: .3rem;
   float: right;
@@ -15323,7 +15326,7 @@ TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM
                      ******************************************************
 
 ***********/
-/* line 659, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 661, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #org-chart {
   height: 400px;
   width: 640px;
@@ -15331,13 +15334,13 @@ TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM
   display: block;
 }
 
-/* line 666, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 668, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .coeus-team-img {
   height: 96px;
   width: 336px;
 }
 
-/* line 671, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 673, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .line-img {
   height: 50px;
   width: 800px;
@@ -15345,23 +15348,23 @@ TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM     TEAM
   margin: auto;
 }
 
-/* line 678, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 680, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .line-div {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/* line 683, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 685, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .bb {
   border-bottom: 1px solid black;
 }
 
-/* line 687, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 689, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .bt {
   border-top: 1px solid black;
 }
 
-/* line 691, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 693, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .team-p {
   font-size: 14px;
 }
@@ -15375,17 +15378,17 @@ PROJECTS     PROJECTS     PROJECTS     PROJECTS     PROJECTS     PROJECTS     PR
                      ******************************************************
 
 ***********/
-/* line 707, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 709, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .project-img {
   position: relative;
 }
 
-/* line 711, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 713, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .no-show {
   display: none;
 }
 
-/* line 715, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 717, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .blur {
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
@@ -15403,7 +15406,7 @@ NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS
                      ******************************************************
 
 ***********/
-/* line 736, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 738, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .news-div {
   width: 76%;
   margin-left: 12%;
@@ -15414,13 +15417,13 @@ NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS
   height: 100px;
 }
 
-/* line 746, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 748, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #last-news-div {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-/* line 751, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 753, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .news-title {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -15428,7 +15431,7 @@ NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS     NEWS
   float: left;
 }
 
-/* line 759, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 761, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .news-content {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -15445,12 +15448,12 @@ LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     
                      ******************************************************
 
 ***********/
-/* line 786, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 788, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .loginbox {
   background-color: transparent;
 }
 
-/* line 790, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 792, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #loginbox2div {
   /*
   background-color: rgb(255,255,255);
@@ -15458,11 +15461,17 @@ LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     
 
   box-shadow: 1px 2px 2px 1px rgba(0,0,0, 0.6);
   */
-  background-color: rgba(255, 255, 255, 0.84);
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 1px 2px 2px 1px rgba(255, 255, 255, 0.9);
 }
 
-/* line 801, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 803, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+#login-div-gray {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 2px 2px 1px rgba(255, 255, 255, 0.9);
+}
+
+/* line 808, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .login-gray-translucent {
   position: absolute;
   background-color: transparent;
@@ -15472,36 +15481,36 @@ LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     
   margin-right: 15%;
 }
 
-/* line 810, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 817, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #session_email {
   width: 300px;
   font-size: 16px;
 }
 
-/* line 816, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 823, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #session_password {
   width: 300px;
   font-size: 16px;
   clear: right;
 }
 
-/* line 825, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 832, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .rm {
   clear: left;
   display: block;
 }
 
-/* line 834, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 841, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .bshadow {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 838, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 845, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .form-label {
   color: #0A2800;
 }
 
-/* line 842, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 849, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .login-button {
   color: #000;
   background-color: rgba(255, 255, 255, 0.8);
@@ -15516,7 +15525,7 @@ LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     
   float: right;
 }
 
-/* line 857, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 864, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .login-button:hover {
   color: #03490b;
   background-color: white;
@@ -15526,12 +15535,12 @@ LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     
   cursor: pointer;
 }
 
-/* line 868, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 875, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .rememberMe-div {
   float: right;
 }
 
-/* line 872, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 879, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .rememberMe-txt {
   font-size: 90%;
   padding-right: 15px;
@@ -15546,7 +15555,7 @@ FONTS     FONTS     FONTS     FONTS     FONTS     FONTS     FONTS     FONTS     
                      ******************************************************
 
 ***********/
-/* line 888, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 895, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .open-sans {
   font-family: 'Open Sans', sans-serif;
 }
@@ -15560,13 +15569,13 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
                      ******************************************************
 
 ***********/
-/* line 903, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 910, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .gimage_img {
   height: 120px;
   width: 120px;
 }
 
-/* line 909, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 916, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .gimage-h3 {
   padding-top: 10px;
   font-size: 14px;
@@ -15575,21 +15584,21 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   height: auto;
 }
 
-/* line 917, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 924, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .gwords-img {
   height: 192px;
   width: 338px;
   float: left;
 }
 
-/* line 924, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 931, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .gwords-h1 {
   margin: 0;
   padding: 0;
   color: #000;
 }
 
-/* line 930, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 937, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .h-20 {
   height: 20%;
   width: 100%;
@@ -15597,7 +15606,7 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   padding: 0;
 }
 
-/* line 936, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 943, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .h-80 {
   height: 80%;
   width: 100%;
@@ -15605,578 +15614,697 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   padding: 0;
 }
 
-/* line 943, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 950, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #gbulbwords {
   height: 304;
   width: 502;
 }
 
-/* line 948, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 955, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .img-j1 {
   height: 300px;
   width: 300px;
 }
 
-/* line 953, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 960, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .js-home-img {
   height: 250px;
   width: 250px;
 }
 
-/* line 959, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 966, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .container-90p {
   width: 90%;
 }
 
-/* line 962, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 969, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .container-95p {
   width: 95%;
 }
 
-/* line 965, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 972, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .container-100p {
   width: 100%;
 }
 
-/* line 970, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 977, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #h-arrow-1 {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 975, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 982, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #h-arrow-2 {
   padding-right: 0;
 }
 
-/* line 978, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 985, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .sm-j2c-txt {
   text-align: justify;
 }
 
-/* line 982, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 989, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #hidden-row {
   display: inline;
 }
 
-/* line 988, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 995, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #appear-proj-img {
   display: none;
   height: 300px;
 }
 
-/* line 992, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 999, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #banner-max {
   max-height: 500px;
 }
 
-/* line 995, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1002, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #appear-row {
   display: none;
 }
 
-/* line 998, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1005, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-0px {
   padding-left: 0px;
 }
 
-/* line 1001, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1008, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-5px {
   padding-left: 5px;
 }
 
-/* line 1004, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1011, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-10px {
   padding-left: 10px;
 }
 
-/* line 1007, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1014, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-15px {
   padding-left: 15px;
 }
 
-/* line 1010, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1017, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-20px {
   padding-left: 20px;
 }
 
-/* line 1013, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1020, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-25px {
   padding-left: 25px;
 }
 
-/* line 1016, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1023, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-30px {
   padding-left: 30px;
 }
 
-/* line 1019, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1026, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-35px {
   padding-left: 35px;
 }
 
-/* line 1022, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1029, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pl-40px {
   padding-left: 40px;
 }
 
-/* line 1025, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1032, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-0px {
   padding-right: 0px;
 }
 
-/* line 1028, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1035, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-5px {
   padding-right: 5px;
 }
 
-/* line 1031, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1038, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-10px {
   padding-right: 10px;
 }
 
-/* line 1034, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1041, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-15px {
   padding-right: 15px;
 }
 
-/* line 1037, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1044, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-20px {
   padding-right: 20px;
 }
 
-/* line 1040, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1047, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-25px {
   padding-right: 25px;
 }
 
-/* line 1043, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1050, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-30px {
   padding-right: 30px;
 }
 
-/* line 1047, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1054, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-35px {
   padding-right: 35px;
 }
 
-/* line 1050, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1057, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .pr-40px {
   padding-right: 40px;
 }
 
-/* line 1055, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1062, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #team-1 {
   order: 2;
 }
 
-/* line 1058, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1065, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #team-2 {
   order: 1;
   padding-top: 0px;
 }
 
-/* line 1062, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1069, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #team-logo-div {
   width: 30%;
   float: left;
   height: 100%;
 }
 
-/* line 1067, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1074, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #project-header {
   width: 80%;
   margin-right: 10%;
   margin-left: 10%;
 }
 
-/* line 1072, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1079, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #project-header-single {
   width: 60%;
   margin-right: 20%;
   margin-left: 20%;
 }
 
-/* line 1078, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1085, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .appear-nav-li {
   font-size: 16px;
 }
 
-/* line 1081, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1088, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .appear-nav-left {
   padding-left: 0px;
   padding-right: 40px;
 }
 
-/* line 1085, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1092, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .appear-nav-right {
   padding-left: 40px;
   padding-right: 0px;
 }
 
-/* line 1090, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1097, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+.last-nav-link {
+  margin-right: 15px;
+}
+
+/* line 1101, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+#ul-rmargin {
+  margin-right: 10px;
+}
+
+/* line 1105, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+.mr-15px {
+  margin-right: 15px;
+}
+
+/* line 1108, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+.mr-20px {
+  margin-right: 20px;
+}
+
+/* line 1120, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+#login-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  padding-bottom: 50px;
+}
+
+/* line 1128, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+.form-control {
+  width: 60%;
+}
+
+/* line 1136, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+#login_background {
+  background-image: url(/assets/investor-f63cd4e1f5a1f848e298e9e5a3401985037f942c8feb40df194c6762093e7b3f.jpg);
+  background-size: contain;
+}
+
+/* line 1141, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #nav-color {
   background-color: #000 !important;
 }
 
-/* line 1093, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1144, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 #nav-color {
   background-color: #000 !important;
   text-align: left;
 }
 
-/* line 1097, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1148, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .navbar-inverse {
   background-color: #000;
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 1102, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1153, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-div {
     height: 170px;
   }
 }
 @media screen and (max-width: 1170px) {
-  /* line 1107, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1158, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header {
     font-size: 50px;
   }
 
-  /* line 1110, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1161, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header-single {
     font-size: 50px;
   }
 }
 @media screen and (max-width: 1112px) {
-  /* line 1115, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1166, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header {
     margin-top: 20px;
   }
 
-  /* line 1118, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1169, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header-single {
     margin-top: 20px;
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 1124, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1175, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   h1 {
     font-size: 24px;
   }
 
-  /* line 1127, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1178, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   p {
     font-size: 16px;
   }
 
-  /* line 1130, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1181, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-li {
     font-size: 16px;
   }
 
-  /* line 1133, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1184, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-left {
     padding-left: 0px;
     padding-right: 40px;
   }
 
-  /* line 1137, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1188, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-right {
     padding-left: 40px;
     padding-right: 0px;
   }
 
-  /* line 1141, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1192, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .banner-text {
     font-size: 60px;
   }
 
-  /* line 1144, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1195, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .banner-text-single {
     margin-top: 40px;
     font-size: 40px;
   }
 
-  /* line 1148, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1199, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .banner-text-double {
     margin-top: 20px;
     font-size: 40px;
   }
 
-  /* line 1152, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1203, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .home-ii {
     width: 210px;
     height: 161px;
   }
 
-  /* line 1156, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1207, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  .home-three-img-container {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  /* line 1212, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #org-chart {
     height: 220px;
     width: 320px;
   }
 
-  /* line 1160, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1216, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  .last-nav-link {
+    margin-right: 0px;
+  }
+
+  /* line 1219, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  #login-container {
+    height: 595px;
+  }
+
+  /* line 1222, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header {
     margin-top: 20px;
     font-size: 36px;
   }
 
-  /* line 1164, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1226, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header-single {
     margin-top: 20px;
     font-size: 36px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 1171, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1233, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #nav-links {
     display: none;
   }
 
-  /* line 1174, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1236, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   h1 {
     font-size: 22px;
   }
 
-  /* line 1177, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1239, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   p {
     font-size: 14px;
   }
 
-  /* line 1180, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1242, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-li {
     font-size: 16px;
   }
 
-  /* line 1183, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1245, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-left {
     padding-left: 0px;
     padding-right: 30px;
   }
 
-  /* line 1187, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1249, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-right {
     padding-left: 30px;
     padding-right: 0px;
   }
 
-  /* line 1191, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1253, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .banner-text {
     font-size: 50px;
   }
 
-  /* line 1194, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1256, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #hidden-proj-img {
     display: none;
   }
 
-  /* line 1197, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1259, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  #hidden-row-md {
+    display: none;
+  }
+
+  /* line 1262, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #appear-proj-img {
     display: block;
     height: 300px;
   }
 
-  /* line 1201, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1266, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  #login-container {
+    height: 595px;
+  }
+
+  /* line 1269, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header {
     padding-top: 30px;
     font-size: 40px;
   }
 
-  /* line 1205, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1273, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header-single {
     padding-top: 30px;
     font-size: 40px;
   }
 
-  /* line 1210, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1278, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .home-ii {
     width: 180px;
-    height: 138px;
+    height: 110px;
   }
 
-  /* line 1214, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1283, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .home-1 {
     padding-top: 0;
   }
 
-  /* line 1217, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1286, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #org-chart {
     height: 320px;
     width: 512px;
   }
 
-  /* line 1221, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1291, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .sm-j2c-txt {
     text-align: left;
   }
 
-  /* line 1224, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1294, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #team-1 {
     order: 1;
   }
 
-  /* line 1227, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1297, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #team-2 {
     order: 2;
     padding-top: 20px;
   }
 
-  /* line 1231, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1301, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  #team-banner {
+    height: 320px;
+  }
+
+  /* line 1304, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #team-logo-div {
     width: 40%;
   }
 }
+@media screen and (max-width: 701px) {
+  /* line 1309, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  .home-ii {
+    width: 180px;
+    height: 90px;
+  }
+}
 @media screen and (max-width: 576px) {
-  /* line 1238, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1317, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   h1 {
     font-size: 18px;
   }
 
-  /* line 1241, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1320, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   p {
     font-size: 13px;
   }
 
-  /* line 1244, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1323, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .banner-text {
-    font-size: 0px;
+    font-size: 35px;
   }
 
-  /* line 1247, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1326, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-li {
     font-size: 14px;
   }
 
-  /* line 1250, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1329, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-left {
     padding-left: 0px;
     padding-right: 30px;
   }
 
-  /* line 1254, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1333, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-right {
     padding-left: 30px;
     padding-right: 0px;
   }
 
-  /* line 1258, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1337, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #appear-row {
     display: inline;
   }
 
-  /* line 1261, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1340, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #apppear-proj-img {
     height: 300px;
   }
 
-  /* line 1267, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1346, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .banner-img-div-400 {
     height: 300px;
   }
 
-  /* line 1270, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1349, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .home-ii {
     width: 120px;
     height: 92px;
   }
 
-  /* line 1274, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1353, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .home-1 {
     padding-top: 20px;
   }
 
-  /* line 1277, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1356, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #org-chart {
     height: 220px;
     width: 320px;
   }
 
-  /* line 1281, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1360, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .sm-j2c-txt {
     text-align: left;
   }
 
-  /* line 1284, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1363, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #hidden-row {
     display: none;
   }
 
-  /* line 1287, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1366, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  .home-ii {
+    width: 180px;
+    height: 65px;
+  }
+
+  /* line 1371, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  #login-h1 {
+    font-size: 24px;
+  }
+
+  /* line 1374, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  #login-container {
+    height: 565px;
+  }
+
+  /* line 1377, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  #team-banner {
+    height: 220px;
+  }
+
+  /* line 1380, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header {
     padding-top: 30px;
     font-size: 30px;
   }
 
-  /* line 1291, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1384, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #project-header-single {
     padding-top: 30px;
     font-size: 30px;
   }
 
-  /* line 1296, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1389, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #team-2 {
     padding-top: 20px;
   }
 
-  /* line 1299, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1392, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #team-logo-div {
     display: none;
   }
 
-  /* line 1302, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1395, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .team-p {
     font-size: 13px;
   }
 }
 @media screen and (max-width: 501px) {
-  /* line 1308, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1401, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-li {
     font-size: 13px;
   }
 
-  /* line 1311, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1404, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-left {
     padding-left: 0px;
     padding-right: 20px;
   }
 
-  /* line 1315, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1408, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-right {
     padding-left: 20px;
     padding-right: 0px;
   }
+
+  /* line 1412, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  .home-ii {
+    width: 180px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 1419, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  .home-ii {
+    width: 180px;
+    height: 55px;
+  }
 }
 @media screen and (max-width: 399px) {
-  /* line 1321, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1426, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-li {
     font-size: 12px;
   }
 
-  /* line 1324, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1429, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-left {
     padding-left: 0px;
     padding-right: 10px;
   }
 
-  /* line 1328, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1433, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   .appear-nav-right {
     padding-left: 10px;
     padding-right: 0px;
   }
+
+  /* line 1437, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  .home-ii {
+    width: 180px;
+    height: 48px;
+  }
 }
-/* line 1335, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1445, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 ml-n40 {
   margin-left: -40px;
 }
 
-/* line 1338, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1448, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 padding-lr-0 {
   padding-left: 0px;
   padding-right: 0px;
 }
 
 @media screen and (min-width: 993px) {
-  /* line 1344, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+  /* line 1454, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
   #org-chart {
     height: 400px;
     width: 640px;
@@ -16187,9 +16315,34 @@ padding-lr-0 {
     BOOTSTRAP UPDATES
 
 ********************************/
-/* line 1357, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+/* line 1467, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
 .form-control {
   margin-left: 0;
+}
+
+/* line 1471, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+#btn-black {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+/* line 1477, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+#btn-black a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 1483, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+.nav-link {
+  text-align: right;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 1488, /Users/kosty/Developer/webapps/coeus/app/assets/stylesheets/pages.scss */
+.nav-item {
+  height: 36px;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

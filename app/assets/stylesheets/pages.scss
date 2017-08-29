@@ -1094,6 +1094,10 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     padding-right: 0px;
   }
 
+.last-nav-link {
+  margin-right: 15px;
+}
+
 #ul-rmargin {
   margin-right: 10px;
 }
@@ -1109,6 +1113,10 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 
 }
 
+.home-three-img-container {
+
+}
+
 #login-container {
   margin: 0;
   padding: 0;
@@ -1119,6 +1127,10 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 
 .form-control {
   width: 60%;
+}
+
+#project-banner {
+
 }
 
 #login_background {
@@ -1192,9 +1204,17 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     width: 210px;
     height: 161px;
   }
+  .home-three-img-container {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
   #org-chart {
     height: 220px;
     width: 320px;
+  }
+  .last-nav-link {
+  margin-right: 0px;
   }
   #login-container {
     height: 595px;
@@ -1257,7 +1277,8 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 
   .home-ii {
     width: 180px;
-    height: 138px;
+    height: 110px;
+    //height 138px;
   }
   .home-1 {
     padding-top: 0;
@@ -1266,6 +1287,7 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     height: 320px;
     width: 512px;
   }
+
   .sm-j2c-txt {
     text-align: left;
   }
@@ -1276,11 +1298,20 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     order: 2;
     padding-top: 20px;
   }
+  #team-banner {
+    height: 320px;
+  }
   #team-logo-div {
     width: 40%;
   }
 }
-
+@media screen and (max-width: 701px) {
+    .home-ii {
+    width: 180px;
+    height: 90px;
+    //height 138px;
+  }
+}
 @media screen and (max-width: 576px)
 {
   h1 {
@@ -1332,11 +1363,19 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   #hidden-row {
     display: none;
   }
+  .home-ii {
+    width: 180px;
+    height: 65px;
+    //height 138px;
+  }
   #login-h1 {
     font-size: 24px;
   }
   #login-container {
     height: 565px;
+  }
+  #team-banner {
+    height: 220px;
   }
   #project-header {
     padding-top: 30px;
@@ -1370,6 +1409,18 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     padding-left: 20px;
     padding-right: 0px;
   }
+  .home-ii {
+    width: 180px;
+    height: 60px;
+    //height 138px;
+  }
+}
+@media screen and (max-width: 450px) {
+    .home-ii {
+    width: 180px;
+    height: 55px;
+    //height 138px;
+    }
 }
 @media screen and (max-width: 399px) {
   .appear-nav-li {
@@ -1383,6 +1434,11 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     padding-left: 10px;
     padding-right: 0px;
   }
+    .home-ii {
+    width: 180px;
+    height: 48px;
+    //height 138px;
+    }
 }
 
 
@@ -1422,5 +1478,14 @@ padding-lr-0 {
     background-color: #fff;
     color: #000;
   }
+}
+
+.nav-link {
+  text-align: right;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.nav-item {
+  height: 36px;
 }
 
