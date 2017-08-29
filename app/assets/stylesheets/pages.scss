@@ -22,6 +22,10 @@ $dark-green: #0A2800;
 .bgt {
   background-color: transparent;
 }
+#bg-transparent {
+  background-color: transparent;
+}
+
 
 .bgcolor-w {
   background-color: #fff;
@@ -794,7 +798,7 @@ LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     
 
   box-shadow: 1px 2px 2px 1px rgba(0,0,0, 0.6);
   */
-  background-color: rgba(255,255,255,.84);
+  background-color: rgba(255,255,255,.9);
   box-shadow: 1px 2px 2px 1px rgba(255,255,255, 0.9);
 }
 
@@ -1375,5 +1379,16 @@ padding-lr-0 {
 .form-control {
   margin-left: 0;
 }
-
+//not an update but addition
+#btn-black {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+#btn-black {
+  a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
 
