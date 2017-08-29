@@ -802,6 +802,11 @@ LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     LOGIN     
   box-shadow: 1px 2px 2px 1px rgba(255,255,255, 0.9);
 }
 
+#login-div-gray {
+  background-color: rgba(255,255,255,.8);
+  box-shadow: 1px 2px 2px 1px rgba(255,255,255, 0.9);
+}
+
 .login-gray-translucent {
     position: absolute;
     background-color: transparent;
@@ -1106,6 +1111,19 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
 
 }
 
+#login-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  padding-bottom: 50px;
+}
+
+#login_background {
+  background-image: image-url('investor.jpg');
+  background-size: contain;
+}
+
 #nav-color {
   background-color: $nav-color !important;
 }
@@ -1172,9 +1190,12 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
     width: 210px;
     height: 161px;
   }
-    #org-chart {
+  #org-chart {
     height: 220px;
     width: 320px;
+  }
+  #login-container {
+    height: 595px;
   }
   #project-header {
     margin-top: 20px;
@@ -1219,6 +1240,9 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   #appear-proj-img {
     display: block;
     height: 300px;
+  }
+  #login-container {
+    height: 595px;
   }
   #project-header {
     padding-top: 30px;
@@ -1305,6 +1329,12 @@ IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMAGES     IMA
   }
   #hidden-row {
     display: none;
+  }
+  #login-h1 {
+    font-size: 24px;
+  }
+  #login-container {
+    height: 565px;
   }
   #project-header {
     padding-top: 30px;
