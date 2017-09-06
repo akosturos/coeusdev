@@ -3,50 +3,41 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a id="nav-coeus-new" class="navbar-brand" href="/">
-        COEUS
-        <%= image_tag "coeus.png", id: 'main-logo' %>
+      <a id="nav-coeus-new" class="navbar-brand" href="/">COEUS
+      <img src="/assets/coeus.png" id="main-logo">
       </a>
-
 
       <div class="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto" id="ul-rmargin">
-            <li class="nav-item <%= 'active' if request.path == '/' %> nav-color">
-                <%= link_to "Home", root_path, class: 'nav-link' %>
+            <li class="nav-item active nav-color">
+                <a class="nav-link" href="/">home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item nav-color">
-                <%= link_to "Tech", root_path(anchor: 'technology'), class: 'nav-link' %>
+                <a class="nav-link" href="#technology">tech</a>
             </li>
-            <li class="nav-item <%= 'active' if request.path == '/team' %> nav-color">
-                <%= link_to "Team", team_path, class: 'nav-link' %>
+            <li class="nav-item nav-color">
+                <a class="nav-link" href="/team">team</a>
             </li>
-            <li class="nav-item <%= 'active' if request.path == '/projects' %> nav-color">
-                <%= link_to "Projects", projects_path, class: 'nav-link' %>
+            <li class="nav-item nav-color">
+                <a class="nav-link" href="/projects">projects</a>
             </li>
-            <li class="nav-item <%= 'active' if request.path == '/contact' %> nav-color">
-                <%= link_to "Contact", contact_path, class: 'nav-link' %>
+            <li class="nav-item nav-color">
+                <a class="nav-link" href="/contact">contact</a>
             </li>
-            <li class="nav-item <%= 'active' if request.path == '/login' %> nav-color last-nav-link">
-                <%= link_to "Login", login_path, class: 'nav-link' %>
+            <li class="nav-item nav-color last-nav-link">
+                <a class="nav-link" href="/login">login</a>
             </li>
         </ul>
       </div>
     </nav>
     <div id="appear-nav">
         <ul class="appear-nav-ul">
-            <li class="appear-nav-li appear-nav-left">
-                <a  id="appear-home" href="/">home</a>
-            </li>
-            <li class="appear-nav-li appear-nav-left">
-                <a id="appear-tech" href="/#technology">tech</a>
-            </li>
-            <li class="appear-nav-li appear-nav-left">
-                <%= link_to "team", team_path %>
-            </li>
-            <li class="appear-nav-li pl-0px pr-0px">
-                <a href="/"><img src="/assets/coeus.png" id="appear-logo"></a>
-            </li>
+            <li class="appear-nav-li appear-nav-left"><a  id="appear-home" href="/">home</a></li>
+            <li class="appear-nav-li appear-nav-left"><a id="appear-tech" href="/#technology">tech</a></li>
+            <li class="appear-nav-li appear-nav-left"><%= link_to "team", team_path %></li>
+            <li class="appear-nav-li pl-0px pr-0px"><a href="/"><img src="/assets/coeus.png" id="appear-logo"></a></li>
             <li class="appear-nav-li appear-nav-right"><%= link_to "projects", projects_path %></li>
+           <%# <li><%= link_to "news", about_path %><%#</li>%>
             <li class="appear-nav-li appear-nav-right"><%= link_to "contact", contact_path %></li>
             <% if logged_in? %>
             <li class="appear-nav-li"><%= link_to "Users", users_path %></li>
