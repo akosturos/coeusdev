@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'users/new'
 
 #see http://guides.rubyonrails.org/routing.html
-  root 'static_pages#home'
+  root 'static_pages#index'
 
   get '/contact', to: 'static_pages#contact'
   get '/about', to: 'static_pages#about'
