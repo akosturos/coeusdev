@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem 'pg',                 '0.18.4'
 gem 'rails',              '5.0.1'
 gem 'bootstrap-sass',     '3.3.7'
 gem 'bcrypt',             '3.1.11'
@@ -36,7 +36,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.18.4'
   gem 'rails_12factor'
 end
 
