@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'sqlite3',          '1.3.12'
 gem 'rails',              '5.0.1'
 gem 'bootstrap-sass',     '3.3.7'
 gem 'bcrypt',             '3.1.11'
@@ -17,7 +18,6 @@ gem 'bootstrap-will_paginate', '1.0.0'
 
 group :development, :test do
   gem 'byebug',           '9.0.0', platform: :mri
-  gem 'sqlite3',          '1.3.12'
 end
 
 group :development do
