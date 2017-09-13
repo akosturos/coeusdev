@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 gem 'rails',              '5.0.1'
 gem 'bootstrap-sass',     '3.3.7'
-gem 'sqlite3',            '1.3.12'
 gem 'bcrypt',             '3.1.11'
 gem 'puma',               '3.4.0'
 gem 'sass-rails',         '5.0.6'
@@ -21,6 +20,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'sqlite3',                    '1.3.12'
   gem 'web-console',                '3.1.1'
   gem 'listen',                     '3.0.8'
   gem 'spring',                     '1.7.2'
